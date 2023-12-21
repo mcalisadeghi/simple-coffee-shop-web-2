@@ -28,7 +28,7 @@ header .navbar{
 .navbar .logo span{
     color: #c06B3E;
 }
-.navbar .menu-lisnks{
+.navbar .menu-links{
     display: flex;
     gap: 40px;
 }
@@ -80,15 +80,16 @@ header .navbar{
 #menu-btn{
     color: #fff;
     cursor: pointer;
+    display: none;
 }
-.close-menu-btn{
+#close-menu-btn{
     position: absolute;
     right: 20px;
     top: 20px;
     cursor: pointer;
 }
 @media screen and (max-width: 900px){
-    .navbar .menu-lisnks{
+    .navbar .menu-links{
         position: fixed;
         left: 0;
         top: 0;
@@ -96,6 +97,7 @@ header .navbar{
         width: 260px;
         height: 100vh;
         background: #fff;
+        padding: 70px 40px 0;
     }
     .navbar a{
         color: #000;
